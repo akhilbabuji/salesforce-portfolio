@@ -27,7 +27,7 @@ jobs:
         run: npm ci
 
       - name: Build (production)
-        run: npm run build -- --configuration production
+        run: npm run build -- --configuration production --base-href /salesforce-portfolio/
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
