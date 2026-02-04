@@ -15,7 +15,7 @@ interface PortfolioItem {
 export class AppComponent {
   name = 'Akhil K B.';
   title = 'Salesforce Developer';
-  photo = 'assets/profile.svg';
+  photo = 'assets/537A9670 copy.jpg';
   summary = `Experienced Salesforce Developer specialized in LWC and Apex development in Sales, Service, and Experience Cloud. Skilled at building scalable automations, integrations, and custom UI.`;
   portfolio: PortfolioItem[] = [
     { title: 'Sales Cloud Implementation', year: '2024', description: 'Designed and implemented Sales Cloud with custom lead-to-opportunity flows and automation.' },
