@@ -13,11 +13,10 @@ interface PortfolioItem {
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  name = 'Anusree B.';
+  name = 'Akhil K B.';
   title = 'Salesforce Developer';
   photo = 'assets/profile.svg';
-  summary = `Experienced Salesforce Developer specialized in Sales Cloud, Service Cloud, and Apex development. Skilled at building scalable automations, integrations, and custom UI.`;
-
+  summary = `Experienced Salesforce Developer specialized in LWC and Apex development in Sales, Service, and Experience Cloud. Skilled at building scalable automations, integrations, and custom UI.`;
   portfolio: PortfolioItem[] = [
     { title: 'Sales Cloud Implementation', year: '2024', description: 'Designed and implemented Sales Cloud with custom lead-to-opportunity flows and automation.' },
     { title: 'Service Cloud Migration', year: '2023', description: 'Migrated legacy ticketing system into Service Cloud with omni-channel routing.' },
