@@ -38,6 +38,15 @@
       </article>
     </div>
   </section>
+  <section class="portfolio"> 
+    <h3>SkillSets</h3>
+    <div class="skills-container">
+      <div class="skill-box" *ngFor="let s of skill">
+        <span class="skillset-name">{{ s.name }}</span>
+        <span class="skillset-level">({{ s.level }})</span>
+      </div>
+    </div>
+  </section>
   <footer class="footer">
     <small>Built with Angular • ❤️</small>
   </footer>

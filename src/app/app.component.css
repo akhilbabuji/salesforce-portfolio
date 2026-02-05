@@ -66,8 +66,8 @@ h2 { margin: 4px 0 10px; color: #34523f; font-weight: 600; }
 
 /* Optionally hide text if you keep a label beside the icon */
 .contact .label { display: none; }
-.portfolio h3 { margin-top: 4px; color: #2e5a44; }
-.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; margin-top: 12px; }
+.portfolio h3 { margin-top: 4px; margin-bottom: 12px; color: #2e5a44; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; margin-top: 12px; margin-bottom: 12px;}
 .card {
   padding: 16px;
   border: 1px solid rgba(43,95,68,0.08);
@@ -117,4 +117,70 @@ a:hover { color: var(--forest-moss); text-decoration: underline; }
   height: 1px;
   background: linear-gradient(90deg, transparent, rgba(47,111,78,0.12), transparent);
   margin: 18px 0;
+}
+
+.skills {
+  margin-top: 24px;
+  padding: 16px;
+  background: linear-gradient(90deg, rgba(198,228,207,0.6), rgba(255,255,255,0));
+  border-radius: 10px;
+  transform: translateY(-6px) scale(1.02);
+}
+.skills h3 {
+  margin-top: 0;
+  color: #2e5a44;
+}
+.skills ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 12px 0 0;
+}
+.skills li {
+  margin-bottom: 8px;
+  color: #274032;
+}
+
+.skills.hover,
+.skills:focus-within,
+.skills:focus {
+  margin-top: 24px;
+  padding: 16px;
+  background: linear-gradient(90deg, rgba(43, 92, 58, 0.6), rgba(159, 23, 23, 0));
+  border-radius: 10px;
+  transform: translateY(-6px) scale(1.02);
+}
+
+.skills:focus-visible {
+  box-shadow: 0 12px 28px rgba(27,50,36,0.18), 0 0 0 4px rgba(13, 59, 13, 0.12);
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px; /* Space between boxes */
+  margin-top: 20px;
+}
+/* The individual Skill Box */
+.skill-box {
+  flex: 1 1 calc(33.333% - 12px); /* 3 boxes per row with gap */
+  background: var(--forest-green);
+  padding: 16px;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(8, 82, 36, 0.06);
+  transition: transform 180ms ease, box-shadow 180ms ease;
+}
+.skill-box:hover,
+.skill-box:focus-within,
+.skill-box:focus {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 12px 28px rgba(8, 82, 36, 0.15);
+  z-index: 5;
+  outline: none;
+}
+.skill-box:focus-visible {
+  box-shadow: 0 12px 28px rgba(8, 82, 36, 0.18), 0 0 0 4px rgba(134, 179, 134, 0.12);
+}
+.skill-box h4 {
+  margin: 0;
+  color: #fff;
 }
