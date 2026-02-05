@@ -24,9 +24,9 @@ export class AppComponent {
   photo = 'assets/537A9670 copy.jpg';
   summary = `Experienced Salesforce Developer specialized in LWC and Apex development in Sales, Service, and Experience Cloud. Skilled at building scalable automations, integrations, and custom UI.`;
   portfolio: PortfolioItem[] = [
-    { title: 'Sales Cloud Implementation', year: '2024', description: 'Designed and implemented Sales Cloud with custom lead-to-opportunity flows and automation.' },
-    { title: 'Service Cloud Migration', year: '2023', description: 'Migrated legacy ticketing system into Service Cloud with omni-channel routing.' },
-    { title: 'Apex Integration Layer', year: '2022', description: 'Built a robust Apex integration layer connecting Salesforce with external ERP via REST.' }
+    { title: 'Experience Cloud', year: '2024', description: 'Designed and implemented custom solutions using Lightning Web Components (LWC) and Apex in Experience Cloud.' },
+    { title: 'Sales Cloud', year: '2023', description: 'Designed and implemented a custom Email Drafting tool which leverages AI to suggest relevant subject and body based on the call transcript for the Insurance Advisors to respond effectively' },
+    { title: 'Service Cloud', year: '2022', description: 'Built a robust Apex integration layer connecting Salesforce with external ERP via REST.' }
   ];
   education: EducationItem[] = [
     { title: 'Bachelor of Technology in ECE', college: 'College of Engineering Trivandrum', year: '2013-2017' },
