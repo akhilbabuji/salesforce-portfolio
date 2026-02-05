@@ -19,8 +19,15 @@
       </article>
     </div>
   </section>
+  <section class="portfolio">
+    <h3>Education Details</h3>
+    <div class="grid">
+      <article class="card" *ngFor="let e of education">
+        <h4>{{ e.title }} <span class="year">{{ e.year }}</span></h4>
+      </article>
+    </div>
 
   <footer class="footer">
-    <small>Built with Angular • Replace this content with your resume and links</small>
+    <small>Built with Angular • ❤️</small>
   </footer>
 </div>
