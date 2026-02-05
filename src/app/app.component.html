@@ -5,7 +5,8 @@
       <h1>{{ name }}</h1>
       <h2>{{ title }}</h2>
       <p class="summary">{{ summary }}</p>
-      <a class="contact" href="mailto:you@example.com">Contact</a>
+      <a class="contact" href="mailto:akhilbabuji@gmail.com">Contact</a>
+      <a class="contact" href="tel:+916361797121">Call</a>
     </div>
   </header>
 
@@ -23,10 +24,10 @@
     <h3>Education Details</h3>
     <div class="grid">
       <article class="card" *ngFor="let e of education">
-        <h4>{{ e.title }} <span class="year">{{ e.year }}</span></h4>
+        <h4>{{ e.title }} <span class="college">{{ e.college }}</span> <span class="year">{{ e.year }}</span></h4>
       </article>
     </div>
-
+  </section>
   <footer class="footer">
     <small>Built with Angular • ❤️</small>
   </footer>

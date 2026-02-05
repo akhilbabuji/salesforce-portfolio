@@ -9,6 +9,7 @@ interface PortfolioItem {
 
 interface EducationItem {
   title: string;
+  college: string;
   year: string;
 }
 
@@ -28,7 +29,7 @@ export class AppComponent {
     { title: 'Apex Integration Layer', year: '2022', description: 'Built a robust Apex integration layer connecting Salesforce with external ERP via REST.' }
   ];
   education: EducationItem[] = [
-    { title: 'Bachelor of Technology in ECE', year: '2013-2017' },
-    { title: 'Master of Technology in Telecommunications', year: '20202022'}
+    { title: 'Bachelor of Technology in ECE', college: 'College of Engineering Trivandrum', year: '2013-2017' },
+    { title: 'Master of Technology in Telecommunications', college: 'National Institute of Technology, Calicut', year: '2020-2022'}
   ];
 }
