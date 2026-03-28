@@ -44,6 +44,7 @@ export class AppComponent {
     { name: 'Integration', level: 'Expert' },
     { name: 'Sales Cloud', level: 'Intermediate' },
     { name: 'Experience Cloud', level: 'Intermediate' },
+    { name: 'Git', level: 'Intermediate' },
     { name: 'Copado', level: 'Intermediate' }
   ];
 }
