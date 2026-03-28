@@ -27,7 +27,7 @@ export class AppComponent {
   name = 'Akhil K B';
   title = 'Salesforce Developer';
   photo = 'assets/537A9670 copy.jpg';
-  summary = `Experienced Salesforce Developer specialized in LWC and Apex development in Sales, Service, and Experience Cloud. Skilled at building scalable automations, integrations, and custom UI.`;
+  summary = `Experienced Salesforce Developer specialized in LWC and Apex development in Sales, Service, and Experience Cloud. Skilled at building scalable solutions, automations, integrations, and custom UI.`;
   portfolio: PortfolioItem[] = [
     { title: 'Experience Cloud', year: '2024', description: 'Designed and implemented custom solutions using Lightning Web Components (LWC) and Apex in Experience Cloud. Performed Integration with external systems and optimized performance.' },
     { title: 'Sales Cloud', year: '2023, 2026', description: 'Designed and implemented a Custom Email Drafting tool which leverages AI to suggest relevant subject and body based on the call transcript for the Insurance Advisors to respond effectively other than normal Sales Cloud functionaliy.' },
@@ -44,7 +44,7 @@ export class AppComponent {
     { name: 'Integration', level: 'Expert' },
     { name: 'Sales Cloud', level: 'Intermediate' },
     { name: 'Experience Cloud', level: 'Intermediate' },
-    { name: 'Git', level: 'Intermediate' },
+    { name: 'GitLab, GitHub', level: 'Intermediate' },
     { name: 'Copado', level: 'Intermediate' }
   ];
 }
