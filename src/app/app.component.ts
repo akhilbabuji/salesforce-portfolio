@@ -30,7 +30,7 @@ export class AppComponent {
   summary = `Experienced Salesforce Developer specialized in LWC and Apex development in Sales, Service, and Experience Cloud. Skilled at building scalable automations, integrations, and custom UI.`;
   portfolio: PortfolioItem[] = [
     { title: 'Experience Cloud', year: '2024', description: 'Designed and implemented custom solutions using Lightning Web Components (LWC) and Apex in Experience Cloud. Performed Integration with external systems and optimized performance.' },
-    { title: 'Sales Cloud', year: '2023', description: 'Designed and implemented a Custom Email Drafting tool which leverages AI to suggest relevant subject and body based on the call transcript for the Insurance Advisors to respond effectively other than normal Sales Cloud functionaliy.' },
+    { title: 'Sales Cloud', year: '2023, 2026', description: 'Designed and implemented a Custom Email Drafting tool which leverages AI to suggest relevant subject and body based on the call transcript for the Insurance Advisors to respond effectively other than normal Sales Cloud functionaliy.' },
     { title: 'Service Cloud', year: '2022', description: 'Worked on basic functionality enhancements in Service Cloud, including custom objects and workflows.' }
   ];
   education: EducationItem[] = [
